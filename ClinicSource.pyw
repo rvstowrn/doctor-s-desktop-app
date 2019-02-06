@@ -308,16 +308,16 @@ def printrn1():
                                  <span class="b"> I Treat He Cures </span>
 
 
-   <span class='ee'> Dr S.K. Das</span>                               <span class='bb'>VERMA HOMOEO CLINIC</span>      
-              D.H.M.S.(BU),                               MIG-54,Hanuman Nagar 
-     M.D.E.H.(KNP),ND(LKO),                               Kankarbagh,Patna -800020  
+   <span class='ee'> Dr A.B. XYZ</span>                               <span class='bb'>VERMA HOMOEO CLINIC</span>      
+              D.H.M.S.(BU),                               XYZ-99,Random Nagar 
+     M.D.E.H.(KNP),ND(LKO),                               PLACE,CITY -CODE  
    Experienced in chronic &                                               
       complicated diseases,                               CONSULTING HOURS
     Regd:Central council of                               9.00 A.M. to 12.00 P.M.
      Homoeopathy(New Delhi)                               5.30 P.M. to 08.30 P.M.
                                                           Contact No-
-   <span class='ee'>Dr D.C.Verma</span>                               9835050075
-              D.B.M.S.(Cal)                               9771417464
+   <span class='ee'>Dr X.Y.Sname</span>                               9#########
+              D.B.M.S.(Cal)                               9#########
                                                          <span class="dark"> Sunday Closed</span>
   
         <p id='data'>"""+s5+s6+"""Name:"""+n+s6+"""Age:"""+a+"""  Sex:"""+s+"""</p> 
@@ -344,22 +344,7 @@ def printrn1():
   </html>"""
   f.write(message)
   f.close()
-  '''
-  n=name_text.get()
-  d=date_text.get()
-  p=e3.get("1.0",'end')
-  s="\t\t\tI Treat He Cures\nDr.S.K. Das\t\tVerma Homeo clinicmg\n"+"\n\n\n\n"+n+"\n\n"+d+"\t\t" + p
-  filename = tempfile.mktemp (".txt")
-  open (filename, "w").write (s)
-  win32api.ShellExecute (
-  0,
-  "printto",
-  filename,
-  '"%s"' % win32print.GetDefaultPrinter (),
-  ".",
-  0
-  )'''
-
+ 
 def printrn2():
   n=name_text.get()
   fname=n+'-A5.html'
@@ -485,16 +470,16 @@ def printrn2():
                                  <span class="b"> I Treat He Cures </span>
 
 
-   <span class='ee'> Dr S.K. Das</span>                               <span class='bb'>VERMA HOMOEO CLINIC</span>      
-              D.H.M.S.(BU),                               MIG-54,Hanuman Nagar 
-     M.D.E.H.(KNP),ND(LKO),                               Kankarbagh,Patna -800020  
+   <span class='ee'> Dr A.B. XYZ</span>                               <span class='bb'>SOME HOMOEO CLINIC</span>      
+              D.H.M.S.(BU),                               XYZ-99,RANDOM Nagar 
+     M.D.E.H.(KNP),ND(LKO),                               PLACE,CITY -CODE 
    Experienced in chronic &                                               
       complicated diseases,                               CONSULTING HOURS
     Regd:Central council of                               9.00 A.M. to 12.00 P.M.
      Homoeopathy(New Delhi)                               5.30 P.M. to 08.30 P.M.
                                                           Contact No-
-   <span class='ee'>Dr D.C.Verma</span>                               9835050075
-              D.B.M.S.(Cal)                               9771417464
+   <span class='ee'>Dr X.Y.Sname</span>                               9#########
+              D.B.M.S.(Cal)                               9#########
                                                          <span class="dark"> Sunday Closed</span>
   <pre class='data'>
             Name:"""+n+"""Age:"""+a+"""  Sex:"""+s+"""
@@ -522,22 +507,7 @@ def printrn2():
   </html>"""
   f.write(message)
   f.close()
-  '''
-  n=name_text.get()
-  d=date_text.get()
-  p=e3.get("1.0",'end')
-  s="\t\t\tI Treat He Cures\nDr.S.K. Das\t\tVerma Homeo clinicmg\n"+"\n\n\n\n"+n+"\n\n"+d+"\t\t" + p
-  filename = tempfile.mktemp (".txt")
-  open (filename, "w").write (s)
-  win32api.ShellExecute (
-  0,
-  "printto",
-  filename,
-  '"%s"' % win32print.GetDefaultPrinter (),
-  ".",
-  0
-  )'''
-
+ 
 
 window = Tk()
 window.title("Clinic Manager")
